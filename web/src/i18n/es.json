@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "title": "Daniel · Ingeniero de software",
+    "description": "Sistemas que aguantan carga, y una bitácora pública de mente, cuerpo y música."
+  },
+  "nav": {
+    "now": "Estado",
+    "notes": "Bitácora",
+    "work": "Ingeniería",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "eyebrow": "1% cada día · mente, cuerpo, arte",
+    "titleLead": "Ingeniero de software.",
+    "titleRest": "Construyo sistemas que aguantan carga y documento, sin pose, cómo mejoro un 1% en la mente, el cuerpo y la música.",
+    "ctaContact": "Hablemos de tu proyecto",
+    "ctaNotes": "Ver la bitácora"
+  },
+  "sections": {
+    "now": "Estado del experimento",
+    "notes": "Últimos apuntes",
+    "work": "Trabajo",
+    "services": "Servicios",
+    "allNotes": "Ver todos los apuntes",
+    "allWork": "Ver los casos"
+  },
+  "now": {
+    "kicker": "El experimento",
+    "title": "Estado del experimento",
+    "intro": "Tres pilares, sin pose de experto. Los números viven en un archivo: cambian cuando cambia el trabajo, sin rehacer la página.",
+    "updated": "Actualizado",
+    "unavailable": "El tablero no responde. Las notas siguen disponibles.",
+    "loading": "Cargando el tablero",
+    "focus": "Foco de ahora"
+  },
+  "pillars": {
+    "mente": "Mente",
+    "cuerpo": "Cuerpo",
+    "arte": "Arte"
+  },
+  "metrics": {
+    "study_hours": "Horas de estudio",
+    "bench_press": "Press de banca",
+    "songs_in_progress": "Canciones en curso"
+  },
+  "notes": {
+    "kicker": "Bitácora",
+    "title": "Notas de campo",
+    "intro": "Apuntes que sostienen los videos cortos: algoritmos, diseño, nube, y lo que el cuerpo y la música van dejando.",
+    "all": "Todo",
+    "empty": "Todavía no hay apuntes en este pilar.",
+    "onlyInEs": "Esta nota está solo en español.",
+    "onlyInEn": "Esta nota está solo en inglés.",
+    "video": "Ver el video",
+    "back": "Volver a la bitácora"
+  },
+  "work": {
+    "kicker": "Ingeniería",
+    "title": "Problema, arquitectura, resultado",
+    "intro": "Casos para quien está decidiendo si trabajar conmigo. Cada uno cabe en una lectura corta.",
+    "sample": "Muestra",
+    "problem": "Problema",
+    "architecture": "Arquitectura",
+    "result": "Resultado",
+    "servicesIntro": "Desarrollo a medida, rendimiento y arquitectura. El alcance se acuerda por escrito."
+  },
+  "services": {
+    "items": [
+      {
+        "title": "Backend y full-stack",
+        "body": "APIs, servicios y paneles con Java, Spring Boot, React y TypeScript."
+      },
+      {
+        "title": "Rendimiento",
+        "body": "Encontrar qué está lento, medirlo y dejarlo más simple."
+      },
+      {
+        "title": "Cloud e IA",
+        "body": "Arquitecturas en AWS y piezas de IA donde de verdad ahorran trabajo."
+      }
+    ]
+  },
+  "contact": {
+    "kicker": "Contacto",
+    "title": "Hablemos de tu proyecto",
+    "intro": "Cuéntame qué duele: un sistema que no escala, una entrega que se atasca, o una colaboración.",
+    "name": "Nombre",
+    "email": "Correo",
+    "message": "Mensaje",
+    "send": "Enviar",
+    "sending": "Enviando",
+    "sent": "Recibido. Te contesto por correo.",
+    "error": "No se pudo enviar. Si sigue fallando, usa un enlace directo.",
+    "invalid": "Revisa el nombre, el correo y el mensaje.",
+    "links": "También por aquí"
+  },
+  "links": {
+    "email": "Correo",
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "youtube": "YouTube",
+    "tiktok": "TikTok",
+    "instagram": "Instagram"
+  },
+  "footer": {
+    "line": "Bitácora pública de un ingeniero generalista."
+  },
+  "notFound": {
+    "title": "Esta página no está",
+    "back": "Volver al inicio"
+  }
+}

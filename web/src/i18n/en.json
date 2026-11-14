@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "title": "Daniel · Software engineer",
+    "description": "Systems that hold up under load, and a public log of mind, body, and music."
+  },
+  "nav": {
+    "now": "Now",
+    "notes": "Notes",
+    "work": "Engineering",
+    "contact": "Contact"
+  },
+  "hero": {
+    "eyebrow": "1% a day · mind, body, art",
+    "titleLead": "Software engineer.",
+    "titleRest": "I build systems that hold up under load, and I document, without the expert pose, how I get 1% better in mind, body, and music.",
+    "ctaContact": "Let's talk about your project",
+    "ctaNotes": "Read the log"
+  },
+  "sections": {
+    "now": "State of the experiment",
+    "notes": "Latest notes",
+    "work": "Work",
+    "services": "Services",
+    "allNotes": "All notes",
+    "allWork": "All case studies"
+  },
+  "now": {
+    "kicker": "The experiment",
+    "title": "State of the experiment",
+    "intro": "Three pillars, no expert pose. The numbers live in a file: they change when the work changes, without rebuilding the page.",
+    "updated": "Updated",
+    "unavailable": "The board is not responding. Notes are still available.",
+    "loading": "Loading the board",
+    "focus": "Current focus"
+  },
+  "pillars": {
+    "mente": "Mind",
+    "cuerpo": "Body",
+    "arte": "Art"
+  },
+  "metrics": {
+    "study_hours": "Study hours",
+    "bench_press": "Bench press",
+    "songs_in_progress": "Songs in progress"
+  },
+  "notes": {
+    "kicker": "Log",
+    "title": "Field notes",
+    "intro": "Notes behind the short videos: algorithms, design, cloud, and whatever the body and the music leave behind.",
+    "all": "All",
+    "empty": "No notes in this pillar yet.",
+    "onlyInEs": "This note is only in Spanish.",
+    "onlyInEn": "This note is only in English.",
+    "video": "Watch the video",
+    "back": "Back to the log"
+  },
+  "work": {
+    "kicker": "Engineering",
+    "title": "Problem, architecture, result",
+    "intro": "Case studies for someone deciding whether to work with me. Each one is a short read.",
+    "sample": "Sample",
+    "problem": "Problem",
+    "architecture": "Architecture",
+    "result": "Result",
+    "servicesIntro": "Custom development, performance, and architecture. Scope is agreed in writing."
+  },
+  "services": {
+    "items": [
+      {
+        "title": "Backend and full-stack",
+        "body": "APIs, services, and panels with Java, Spring Boot, React, and TypeScript."
+      },
+      {
+        "title": "Performance",
+        "body": "Find what is slow, measure it, and leave it simpler."
+      },
+      {
+        "title": "Cloud and AI",
+        "body": "AWS architectures, and AI pieces where they actually save work."
+      }
+    ]
+  },
+  "contact": {
+    "kicker": "Contact",
+    "title": "Let's talk about your project",
+    "intro": "Tell me what hurts: a system that does not scale, a delivery that is stuck, or a collaboration.",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send",
+    "sending": "Sending",
+    "sent": "Received. I'll reply by email.",
+    "error": "Could not send. If it keeps failing, use a direct link.",
+    "invalid": "Check the name, the email, and the message.",
+    "links": "Also here"
+  },
+  "links": {
+    "email": "Email",
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "youtube": "YouTube",
+    "tiktok": "TikTok",
+    "instagram": "Instagram"
+  },
+  "footer": {
+    "line": "Public log of a generalist engineer."
+  },
+  "notFound": {
+    "title": "This page is not here",
+    "back": "Back home"
+  }
+}

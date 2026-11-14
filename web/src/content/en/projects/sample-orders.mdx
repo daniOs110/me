@@ -1,0 +1,24 @@
+---
+title: "Orders service"
+date: 2026-11-01
+summary: "Sample case, here until a real project replaces it. The shape is the one I use to explain a system: what was broken, which architecture decision closed it, and what changed."
+lang: en
+slug: sample-orders
+problem: "Orders were confirmed twice when payment and inventory disagreed."
+architecture: "A Spring Boot service, a queue for payment, and an idempotency table keyed by order id."
+result: "One confirmation per order. A retry no longer charges twice."
+stack: [Java, Spring Boot, AWS]
+featured: true
+sample: true
+order: 1
+draft: false
+---
+
+Replace this file with a real case. The diagram below only shows how a flow sits inside the page.
+
+```mermaid
+flowchart LR
+  api[API] --> pay[Payment queue]
+  pay --> ledger[Idempotency]
+  ledger --> stock[Inventory]
+```

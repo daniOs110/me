@@ -1,0 +1,122 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "IBM Plex Sans", ui-sans-serif, sans-serif;
+  --font-serif: "Instrument Serif", ui-serif, serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+  --color-bg: #10110e;
+  --color-surface: #171910;
+  --color-ink: #ece7dc;
+  --color-muted: #b7b1a3;
+  --color-line: #2c2e26;
+  --color-accent: #e2a15a;
+  --color-accent-ink: #1c140c;
+}
+
+html {
+  color-scheme: dark;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background:
+    radial-gradient(ellipse 70% 40% at 50% -12%, rgb(226 161 90 / 16%), transparent 55%),
+    var(--color-bg);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background: var(--color-accent);
+  color: var(--color-accent-ink);
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 3px;
+}
+
+.note-body {
+  font-size: 1.0625rem;
+  line-height: 1.75;
+}
+
+.note-body h2 {
+  margin-top: 2.75rem;
+  margin-bottom: 0.75rem;
+  font-family: var(--font-serif);
+  font-size: 1.85rem;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  line-height: 1.15;
+}
+
+.note-body h3 {
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.note-body p,
+.note-body ul,
+.note-body ol {
+  margin: 1rem 0;
+}
+
+.note-body ul,
+.note-body ol {
+  padding-left: 1.25rem;
+}
+
+.note-body ul {
+  list-style: disc;
+}
+
+.note-body ol {
+  list-style: decimal;
+}
+
+.note-body a {
+  color: var(--color-accent);
+  text-underline-offset: 3px;
+}
+
+.note-body pre {
+  margin: 1.5rem 0;
+  overflow-x: auto;
+  border: 1px solid var(--color-line);
+  padding: 1rem 1.1rem;
+  font-size: 0.875rem;
+  line-height: 1.6;
+}
+
+.note-body :not(pre) > code {
+  border-radius: 2px;
+  background: var(--color-surface);
+  padding: 0.1em 0.35em;
+  font-family: var(--font-mono);
+  font-size: 0.88em;
+}
+
+.note-body blockquote {
+  margin: 1.5rem 0;
+  border-left: 2px solid var(--color-accent);
+  padding-left: 1rem;
+  color: var(--color-muted);
+}
+
+.mermaid-wrap {
+  margin: 1.5rem 0;
+  overflow-x: auto;
+  border: 1px solid var(--color-line);
+  background: #0c0d0b;
+  padding: 1rem;
+}
+
+.mermaid-wrap svg {
+  max-width: 100%;
+  height: auto;
+}

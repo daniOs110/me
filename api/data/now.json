@@ -1,0 +1,35 @@
+{
+  "updated": "2026-11-14",
+  "pillars": [
+    {
+      "id": "mente",
+      "focus": {
+        "es": "LLD: rate limiter",
+        "en": "LLD: rate limiter"
+      },
+      "metrics": [
+        { "id": "study_hours", "value": 0, "unit": "h" }
+      ]
+    },
+    {
+      "id": "cuerpo",
+      "focus": {
+        "es": "Parado de manos contra la pared",
+        "en": "Wall handstand"
+      },
+      "metrics": [
+        { "id": "bench_press", "value": 0, "unit": "kg", "target": 100 }
+      ]
+    },
+    {
+      "id": "arte",
+      "focus": {
+        "es": "Por definir",
+        "en": "Not set yet"
+      },
+      "metrics": [
+        { "id": "songs_in_progress", "value": 0, "unit": "" }
+      ]
+    }
+  ]
+}

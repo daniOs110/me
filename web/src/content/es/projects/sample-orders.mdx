@@ -1,0 +1,24 @@
+---
+title: "Servicio de pedidos"
+date: 2026-11-01
+summary: "Caso de muestra para sustituir por un proyecto real. El patrón sí es el que uso para contar un sistema: qué se rompía, qué decisión de arquitectura lo cerró y qué cambió."
+lang: es
+slug: sample-orders
+problem: "Los pedidos se confirmaban dos veces cuando el pago y el inventario no se ponían de acuerdo."
+architecture: "Un servicio Spring Boot, una cola para el pago y una tabla de idempotencia por id de pedido."
+result: "Una confirmación por pedido. El reintento deja de duplicar el cobro."
+stack: [Java, Spring Boot, AWS]
+featured: true
+sample: true
+order: 1
+draft: false
+---
+
+Sustituye este archivo por un caso tuyo. El diagrama de abajo es solo para enseñar cómo se ve un flujo dentro de la ficha.
+
+```mermaid
+flowchart LR
+  api[API] --> pay[Cola de pago]
+  pay --> ledger[Idempotencia]
+  ledger --> stock[Inventario]
+```
