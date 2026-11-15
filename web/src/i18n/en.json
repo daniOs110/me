@@ -1,0 +1,137 @@
+{
+  "meta": {
+    "title": "Daniel · Software engineer",
+    "description": "Software engineer. Backends, web applications, and how I get better at my goals from one day to the next."
+  },
+  "nav": {
+    "now": "Now",
+    "notes": "Notes",
+    "work": "Engineering",
+    "contact": "Contact"
+  },
+  "hero": {
+    "eyebrow": "1% better every day",
+    "titleLead": "Software engineer.",
+    "titleRest": "I build backends and web applications, and I document how I get better at my goals from one day to the next.",
+    "ctaContact": "Let's talk about your project",
+    "ctaNotes": "Read the log"
+  },
+  "sections": {
+    "now": "State of the experiment",
+    "notes": "Latest notes",
+    "work": "Work",
+    "services": "Services",
+    "allNotes": "All notes",
+    "allWork": "All case studies"
+  },
+  "now": {
+    "kicker": "The experiment",
+    "title": "State of the experiment",
+    "intro": "The focus of each goal, the hours put in, and what is already done.",
+    "updated": "Updated",
+    "hours": "Hours put in",
+    "completed": "Done",
+    "unavailable": "The board is not responding. Notes are still available.",
+    "loading": "Loading the board",
+    "focus": "Current focus"
+  },
+  "pillars": {
+    "mente": "Mind",
+    "cuerpo": "Body",
+    "arte": "Art"
+  },
+  "metrics": {
+    "study_hours": "Study hours",
+    "bench_press": "Bench press",
+    "songs_in_progress": "Songs in progress"
+  },
+  "notes": {
+    "kicker": "Log",
+    "title": "Field notes",
+    "intro": "Notes behind the short videos: algorithms, design, cloud, and whatever the body and the music leave behind.",
+    "all": "All",
+    "empty": "No notes in this pillar yet.",
+    "onlyInEs": "This note is only in Spanish.",
+    "onlyInEn": "This note is only in English.",
+    "video": "Watch the video",
+    "back": "Back to the log"
+  },
+  "work": {
+    "kicker": "Engineering",
+    "title": "Problem, architecture, result",
+    "intro": "Case studies for someone deciding whether to work with me. Each one is a short read.",
+    "sample": "Sample",
+    "problem": "Problem",
+    "architecture": "Architecture",
+    "result": "Result",
+    "servicesIntro": "Custom development, performance, and architecture. Scope is agreed in writing."
+  },
+  "services": {
+    "items": [
+      {
+        "title": "Backend and full-stack",
+        "body": "APIs, services, and panels with Java, Spring Boot, React, and TypeScript."
+      },
+      {
+        "title": "Performance",
+        "body": "Find what is slow, measure it, and leave it simpler."
+      },
+      {
+        "title": "Cloud and AI",
+        "body": "AWS architectures, and AI pieces where they actually save work."
+      }
+    ]
+  },
+  "contact": {
+    "kicker": "Contact",
+    "title": "Let's talk about your project",
+    "intro": "Tell me what hurts: a system that does not scale, a delivery that is stuck, or a collaboration.",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send",
+    "sending": "Sending",
+    "sent": "Received. I'll reply by email.",
+    "error": "Could not send. If it keeps failing, use a direct link.",
+    "invalid": "Check the name, the email, and the message.",
+    "links": "Also here"
+  },
+  "links": {
+    "email": "Email",
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "youtube": "YouTube",
+    "tiktok": "TikTok",
+    "instagram": "Instagram"
+  },
+  "footer": {
+    "line": "Public log of a generalist engineer."
+  },
+  "notFound": {
+    "title": "This page is not here",
+    "back": "Back home"
+  },
+  "admin": {
+    "kicker": "Private",
+    "title": "Edit the experiment",
+    "intro": "Change the title and the hours, and mark what you already finished, with the video link.",
+    "password": "Password",
+    "enter": "Enter",
+    "entering": "Entering",
+    "denied": "Wrong password.",
+    "unconfigured": "The API has no password. Set ADMIN_PASSWORD and restart uvicorn.",
+    "save": "Save",
+    "saving": "Saving",
+    "saved": "Saved. The board already shows it.",
+    "error": "Could not save.",
+    "invalid": "Check the titles, and that the video, if any, starts with http.",
+    "logout": "Log out",
+    "titleEs": "Title in Spanish",
+    "titleEn": "Title in English",
+    "hours": "Hours put in",
+    "completed": "Already done",
+    "video": "Video link",
+    "loadError": "Could not read the board.",
+    "footer": "Admin"
+  }
+}
