@@ -1,8 +1,10 @@
+import { Link } from "react-router-dom";
 import { profile } from "../data/profile";
 import { useI18n } from "../i18n/context";
+import { langPath } from "../lib/paths";
 
 export function Footer() {
-  const { t } = useI18n();
+  const { lang, t } = useI18n();
 
   return (
     <footer className="border-t border-line">
@@ -11,7 +13,12 @@ export function Footer() {
           <p className="font-serif text-xl text-ink">{profile.name}</p>
           <p className="mt-1">{t("footer.line")}</p>
         </div>
-        <p className="font-mono text-xs tracking-[0.16em]">1%</p>
+        <div className="flex items-center gap-4">
+          <Link to={langPath(lang, "/admin")} className="font-mono text-[11px] uppercase tracking-[0.16em] hover:text-ink">
+            {t("admin.footer")}
+          </Link>
+          <p className="font-mono text-xs tracking-[0.16em]">1%</p>
+        </div>
       </div>
     </footer>
   );

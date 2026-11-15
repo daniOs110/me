@@ -1,4 +1,5 @@
 import { Navigate, Route, Routes } from "react-router-dom";
+import { AdminPage } from "./pages/AdminPage";
 import { ContactPage } from "./pages/ContactPage";
 import { HomePage } from "./pages/HomePage";
 import { LangLayout } from "./pages/LangLayout";
@@ -18,6 +19,7 @@ export function App() {
         <Route path="notas/:slug" element={<NotePage />} />
         <Route path="trabajo" element={<WorkPage />} />
         <Route path="contacto" element={<ContactPage />} />
+        <Route path="admin" element={<AdminPage />} />
         <Route path="*" element={<Navigate to=".." replace />} />
       </Route>
       <Route path="*" element={<Navigate to="/es" replace />} />

@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Daniel · Software engineer",
-    "description": "Systems that hold up under load, and a public log of mind, body, and music."
+    "description": "Software engineer. Backends, web applications, and how I get better at my goals from one day to the next."
   },
   "nav": {
     "now": "Now",
@@ -10,9 +10,9 @@
     "contact": "Contact"
   },
   "hero": {
-    "eyebrow": "1% a day · mind, body, art",
+    "eyebrow": "1% better every day",
     "titleLead": "Software engineer.",
-    "titleRest": "I build systems that hold up under load, and I document, without the expert pose, how I get 1% better in mind, body, and music.",
+    "titleRest": "I build backends and web applications, and I document how I get better at my goals from one day to the next.",
     "ctaContact": "Let's talk about your project",
     "ctaNotes": "Read the log"
   },
@@ -27,8 +27,10 @@
   "now": {
     "kicker": "The experiment",
     "title": "State of the experiment",
-    "intro": "Three pillars, no expert pose. The numbers live in a file: they change when the work changes, without rebuilding the page.",
+    "intro": "The focus of each goal, the hours put in, and what is already done.",
     "updated": "Updated",
+    "hours": "Hours put in",
+    "completed": "Done",
     "unavailable": "The board is not responding. Notes are still available.",
     "loading": "Loading the board",
     "focus": "Current focus"
@@ -108,5 +110,28 @@
   "notFound": {
     "title": "This page is not here",
     "back": "Back home"
+  },
+  "admin": {
+    "kicker": "Private",
+    "title": "Edit the experiment",
+    "intro": "Change the title and the hours, and mark what you already finished, with the video link.",
+    "password": "Password",
+    "enter": "Enter",
+    "entering": "Entering",
+    "denied": "Wrong password.",
+    "unconfigured": "The API has no password. Set ADMIN_PASSWORD and restart uvicorn.",
+    "save": "Save",
+    "saving": "Saving",
+    "saved": "Saved. The board already shows it.",
+    "error": "Could not save.",
+    "invalid": "Check the titles, and that the video, if any, starts with http.",
+    "logout": "Log out",
+    "titleEs": "Title in Spanish",
+    "titleEn": "Title in English",
+    "hours": "Hours put in",
+    "completed": "Already done",
+    "video": "Video link",
+    "loadError": "Could not read the board.",
+    "footer": "Admin"
   }
 }

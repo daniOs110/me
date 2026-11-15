@@ -3,7 +3,7 @@ import os
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from app.routers import contact, now
+from app.routers import admin, contact, now
 
 app = FastAPI(title="Daniel")
 
@@ -19,9 +19,10 @@ origins = [
 app.add_middleware(
     CORSMiddleware,
     allow_origins=origins,
-    allow_methods=["GET", "POST"],
-    allow_headers=["Content-Type"],
+    allow_methods=["GET", "POST", "PUT"],
+    allow_headers=["Content-Type", "Authorization"],
 )
 
 app.include_router(now.router, prefix="/api")
 app.include_router(contact.router, prefix="/api")
+app.include_router(admin.router, prefix="/api/admin")

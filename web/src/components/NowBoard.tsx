@@ -45,6 +45,9 @@ export function NowBoard({ showIntro = false }: { showIntro?: boolean }) {
                 id={pillar.id}
                 focus={focusFor(pillar.focus, lang)}
                 metrics={pillar.metrics}
+                hours={pillar.hours}
+                completed={pillar.completed}
+                video={pillar.video}
               />
             ))}
           </div>

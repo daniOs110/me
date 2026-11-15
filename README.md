@@ -14,6 +14,15 @@ pip install -r requirements.txt
 uvicorn app.main:app --reload --port 8000
 ```
 
+Para editar el experimento desde el navegador, define una contraseña antes de arrancar el API. En PowerShell:
+
+```powershell
+$env:ADMIN_PASSWORD = "una-clave-larga"
+uvicorn app.main:app --reload --port 8000
+```
+
+En bash: `ADMIN_PASSWORD="una-clave-larga" uvicorn app.main:app --reload --port 8000`. La pantalla está en `/es/admin`. La contraseña no se guarda en el repositorio.
+
 En otra, la web:
 
 ```bash
@@ -32,7 +41,7 @@ pytest
 
 ## Cómo se actualiza
 
-- Números del experimento: [`api/data/now.json`](api/data/now.json). El API lo lee en cada petición, así que basta con guardar el archivo y recargar la página. El front no se recompila.
+- Números del experimento: desde `/es/admin`, con la contraseña de `ADMIN_PASSWORD`. Ahí se cambia el título, las horas, si un objetivo ya está completo y el link del video. El API guarda eso en [`api/data/now.json`](api/data/now.json) y el tablero lo lee en cada recarga.
 - Apunte nuevo: un `.mdx` en `web/src/content/es/notes/` o `web/src/content/en/notes/`. El mismo `slug` en los dos idiomas los empareja. Si solo existe en uno, la otra lengua lo muestra y lo dice.
 - Caso de ingeniería: el mismo patrón en `web/src/content/*/projects/`.
 - Textos de la interfaz: [`web/src/i18n/es.json`](web/src/i18n/es.json) y [`web/src/i18n/en.json`](web/src/i18n/en.json).

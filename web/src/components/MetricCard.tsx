@@ -6,24 +6,47 @@ export function MetricCard({
   id,
   focus,
   metrics,
+  hours,
+  completed,
+  video,
 }: {
   id: string;
   focus: string;
   metrics: NowMetric[];
+  hours: number;
+  completed: boolean;
+  video: string;
 }) {
-  const { t } = useI18n();
+  const { lang, t } = useI18n();
   const label = t(`pillars.${id}`);
 
   return (
     <article className="flex h-full flex-col border border-line bg-surface/70 p-5">
-      <p className="font-mono text-[11px] uppercase tracking-[0.18em] text-muted">
-        {label === `pillars.${id}` ? id : label}
-      </p>
+      <div className="flex items-center justify-between gap-3">
+        <p className="font-mono text-[11px] uppercase tracking-[0.18em] text-muted">
+          {label === `pillars.${id}` ? id : label}
+        </p>
+        {completed ? (
+          <p className="font-mono text-[11px] uppercase tracking-[0.16em] text-accent">{t("now.completed")}</p>
+        ) : null}
+      </div>
       <h3 className="mt-5 font-serif text-3xl leading-tight tracking-tight">{focus}</h3>
-      <p className="mt-2 font-mono text-[11px] uppercase tracking-[0.16em] text-muted">
-        {t("now.focus")}
-      </p>
+      <p className="mt-2 font-mono text-[11px] uppercase tracking-[0.16em] text-muted">{t("now.focus")}</p>
+      {video ? (
+        <a href={video} className="mt-3 inline-block text-sm text-accent">
+          {t("notes.video")}
+        </a>
+      ) : null}
       <dl className="mt-8 space-y-5">
+        <div>
+          <dt className="text-sm text-muted">{t("now.hours")}</dt>
+          <dd className="mt-1 flex items-baseline gap-2">
+            <span className="font-mono text-4xl tabular-nums tracking-tight">
+              {new Intl.NumberFormat(lang).format(hours)}
+            </span>
+            <span className="font-mono text-sm text-muted">h</span>
+          </dd>
+        </div>
         {metrics.map((metric) => (
           <Metric key={metric.id} metric={metric} />
         ))}

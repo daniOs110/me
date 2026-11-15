@@ -7,9 +7,10 @@
         "es": "LLD: rate limiter",
         "en": "LLD: rate limiter"
       },
-      "metrics": [
-        { "id": "study_hours", "value": 0, "unit": "h" }
-      ]
+      "hours": 0,
+      "completed": false,
+      "video": "",
+      "metrics": []
     },
     {
       "id": "cuerpo",
@@ -17,6 +18,9 @@
         "es": "Parado de manos contra la pared",
         "en": "Wall handstand"
       },
+      "hours": 0,
+      "completed": false,
+      "video": "",
       "metrics": [
         { "id": "bench_press", "value": 0, "unit": "kg", "target": 100 }
       ]
@@ -27,6 +31,9 @@
         "es": "Por definir",
         "en": "Not set yet"
       },
+      "hours": 0,
+      "completed": false,
+      "video": "",
       "metrics": [
         { "id": "songs_in_progress", "value": 0, "unit": "" }
       ]

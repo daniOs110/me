@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Daniel · Ingeniero de software",
-    "description": "Sistemas que aguantan carga, y una bitácora pública de mente, cuerpo y música."
+    "description": "Ingeniero de software. Backends, aplicaciones web, y cómo mejoro día con día en mis objetivos."
   },
   "nav": {
     "now": "Estado",
@@ -10,9 +10,9 @@
     "contact": "Contacto"
   },
   "hero": {
-    "eyebrow": "1% cada día · mente, cuerpo, arte",
+    "eyebrow": "1% mejor cada día",
     "titleLead": "Ingeniero de software.",
-    "titleRest": "Construyo sistemas que aguantan carga y documento, sin pose, cómo mejoro un 1% en la mente, el cuerpo y la música.",
+    "titleRest": "Hago backends y aplicaciones web, y documento cómo mejoro día con día en mis objetivos.",
     "ctaContact": "Hablemos de tu proyecto",
     "ctaNotes": "Ver la bitácora"
   },
@@ -27,8 +27,10 @@
   "now": {
     "kicker": "El experimento",
     "title": "Estado del experimento",
-    "intro": "Tres pilares, sin pose de experto. Los números viven en un archivo: cambian cuando cambia el trabajo, sin rehacer la página.",
+    "intro": "El foco de cada objetivo, las horas dedicadas y lo que ya quedó cerrado.",
     "updated": "Actualizado",
+    "hours": "Horas dedicadas",
+    "completed": "Completado",
     "unavailable": "El tablero no responde. Las notas siguen disponibles.",
     "loading": "Cargando el tablero",
     "focus": "Foco de ahora"
@@ -108,5 +110,28 @@
   "notFound": {
     "title": "Esta página no está",
     "back": "Volver al inicio"
+  },
+  "admin": {
+    "kicker": "Privado",
+    "title": "Editar el experimento",
+    "intro": "Cambia el título, las horas y marca lo que ya cerraste, con el link del video.",
+    "password": "Contraseña",
+    "enter": "Entrar",
+    "entering": "Entrando",
+    "denied": "Contraseña incorrecta.",
+    "unconfigured": "El API no tiene contraseña. Define ADMIN_PASSWORD y reinicia uvicorn.",
+    "save": "Guardar",
+    "saving": "Guardando",
+    "saved": "Guardado. El tablero ya lo muestra.",
+    "error": "No se pudo guardar.",
+    "invalid": "Revisa los títulos y que el video, si lo hay, empiece por http.",
+    "logout": "Salir",
+    "titleEs": "Título",
+    "titleEn": "Título en inglés",
+    "hours": "Horas dedicadas",
+    "completed": "Ya lo completé",
+    "video": "Link del video",
+    "loadError": "No pude leer el tablero.",
+    "footer": "Admin"
   }
 }
